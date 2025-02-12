@@ -14,7 +14,7 @@ class MedicineExpiryTracker:
         self.root.attributes('-fullscreen', True)
         
         self.sort_column = None
-        self.sort_ascending = True
+        self.sort_ascending = True 
         
         self.create_database()
 
