@@ -69,7 +69,7 @@ class MedicineExpiryTracker:
         self.delete_button = ttk.Button(button_frame, text="Delete Medicine", command=self.delete_medicine, state=tk.DISABLED, style="TButton")
         self.delete_button.pack(side="left", padx=10)
 
-        self.check_expiry_button = ttk.Button(button_frame, text="Check Expiry", command=self.check_expiry, style="TButton")
+        self.check_expiry_button = ttk.Button(button_frame, text="Check y", command=self.check_expiry, style="TButton")
         self.check_expiry_button.pack(side="left", padx=10)
 
         self.load_data()
